@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Feria de Alcalá</title>
+
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    </head>
+    <body class="bg-cyan-500">
+
+        <header class="flex justify-end place-items-end w-auto h-32 md:h-80 bg-cover bg-center rounded-md" style="background-image: url(img/banner2.png);">
+            <nav class="p-4">
+                <ul class="flex flex-row gap-4 md:gap-8">
+                    <li><a href="#" class="text-white text-xl md:text-4xl hover:text-cyan-500">Inicio</a></li>
+                    <li><a href="#servicios" class="text-white text-xl md:text-4xl hover:text-cyan-500">Servicios</a></li>
+                    <li><a href="#contacto" class="text-white text-xl md:text-4xl hover:text-cyan-500">Contacto</a></li>
+                    <li><a href="#llegar" class="text-white text-xl md:text-4xl hover:text-cyan-500">Como LLegar</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="grid grid-cols-1 md:grid-cols-8 gap-4 mt-6">
+            <section class="w-full md:col-span-4 md:col-start-2 md:col-end-6">
+                <article class="md:col-span-4 bg-white m-3 p-4 rounded-md">
+                    <h2 class="text-2xl text-cyan-800 font-bold underline">Una Breve Historia:</h2>
+                    <p class="text-cyan-700 mt-4">                        
+                        La Feria de Alcalá de Guadaíra, una celebración arraigada en la tradición y el folklore de esta localidad sevillana, tiene sus orígenes en el Castillo de Alcalá. La historia se remonta siglos atrás, cuando el recinto amurallado albergaba eventos y celebraciones que reunían a la comunidad.
+                        Con el paso del tiempo, la feria creció en popularidad y se convirtió en una cita ineludible para los alcalareños y visitantes. Sin embargo, las limitaciones espaciales del castillo hicieron necesario buscar un nuevo emplazamiento que pudiera acoger a la creciente multitud y ofrecer mejores condiciones para el desarrollo de la feria.
+                        Fue así como la feria se trasladó al Recinto Ferial, un espacio más amplio y adecuado para las necesidades de la celebración. Este nuevo emplazamiento permitió la instalación de casetas, atracciones y puestos de todo tipo, convirtiendo la feria en un evento aún más atractivo y dinámico.
+                        A pesar del cambio de ubicación, la esencia de la feria se ha mantenido intacta. La música, la gastronomía, las tradiciones y la alegría siguen siendo los pilares de esta celebración que une a la comunidad y atrae a visitantes de todas partes. La Feria de Alcalá de Guadaíra es un reflejo de la rica herencia cultural de esta localidad y un ejemplo de cómo las tradiciones pueden evolucionar y adaptarse sin perder su esencia.  
+                    </p>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 place-items-center mt-4 gap-4">
+                        <img src="img/castillo.jpg" class="w-96 h-52 border-solid border-6 border-cyan-800 rounded-md"/>
+                        <img src="img/portada.jpg" class="w-96 h-52 border-solid border-6 border-cyan-800 rounded-md"/>
+                    </div>
+                </article>
+                <article class="md:col-span-4 bg-white m-3 p-4 rounded-md">
+                    <h2 class="text-2xl text-cyan-800 font-bold underline">Cartel 2025:</h2>
+                    <p class="text-cyan-700 mt-4">                        
+                        El colorido cartel, con volantes de flamenca como un rojo clavel en una vista sobre el albero de la Plaza del Duque, trae recuerdos de las antiguas ferias sobre esta plaza y resalta la singularidad del albero, icono ferial en todo el mundo pero oriundo de las canteras de Alcalá de Guadaíra.
+                        Por su parte, el artista ha explicado que ha seguido el “tópico de la flamenca en un lugar icónico de la ciudad porque el lenguaje del cartel debe ser mundialmente comprensible, he trabajado largamente en un tratamiento distinto, moderno, con un punto de vista diferente, elevando pero integrado.
+                        Me siento muy alcalareño y muy orgulloso de mi ciudad. Le he dedicado mucho tiempo y me he sentido plenamente feliz de hacerlo”- ha expresado.  
+                    </p>
+                    <div class="grid grid-cols-1 mt-4 gap-4">
+                        <img src="img/cartelFeria.jpg" class="w-96 h-auto mx-auto border-solid border-6 border-cyan-800 rounded-md"/>
+                    </div>
+                </article>
+                <article id="servicios" class="md:col-span-4 bg-white m-3 p-4 rounded-md">
+                    <h2 class="text-2xl text-cyan-800 font-bold underline">Servicios:</h2>                    
+                    <p class="text-cyan-700 mt-4 underline">Casetas</p>
+                    <ul class="list-disc ms-10">
+                        <li class="text-cyan-700">Más de 80 casetas con entrada libre en su mayoría</li>
+                        <li class="text-cyan-700">Caseta Municipal para conciertos y espectáculos</li>
+                    </ul>
+                    <p class="text-cyan-700 mt-4 underline">Actuaciones Musicales</p>
+                    <ul class="list-disc ms-10">
+                        <li class="text-cyan-700">Conciertos en la Caseta Municipal</li>
+                        <li class="text-cyan-700">Espectáculos de música en vivo</li>
+                    </ul>
+                    <p class="text-cyan-700 mt-4 underline">Atracciones</p>
+                    <ul class="list-disc ms-10">
+                        <li class="text-cyan-700">Parque de atracciones con atracciones mecánicas y no mecánicas para todas las edades</li>
+                    </ul>
+                    <p class="text-cyan-700 mt-4 underline">Actividades</p>
+                    <ul class="list-disc ms-10">
+                        <li class="text-cyan-700">Paseos de caballos</li>
+                        <li class="text-cyan-700">Concurso de caballos y enganches</li>
+                        <li class="text-cyan-700">Entrega de premios a las casetas mejor engalanadas</li>
+                        <li class="text-cyan-700">Espectáculo de fuegos artificiales para cerrar la feria</li>
+                    </ul>
+                    <p class="text-cyan-700 mt-4 underline">Servicios de Seguridad y Sanidad</p>
+                    <ul class="list-disc ms-10">
+                        <li class="text-cyan-700">Dispositivos de seguridad y sanidad coordinados por el Plan Albero</li>
+                    </ul>
+                    <p class="text-cyan-700 mt-4 underline">Transporte</p>
+                    <ul class="list-disc ms-10">
+                        <li class="text-cyan-700">Autobuses frecuentes desde Sevilla (1-2€, 20-24 minutos)</li>
+                        <li class="text-cyan-700">Taxis desde Sevilla (20-25€, 15 minutos)</li>
+                        <li class="text-cyan-700">Coches compartidos (2€, 35 minutos)</li>
+                        <li class="text-cyan-700">Alquiler de coches desde el aeropuerto de Sevilla</li>
+                    </ul>
+                    <p class="text-cyan-700 mt-4 underline">Fechas y Horarios</p>
+                    <ul class="list-disc ms-10">
+                        <li class="text-cyan-700">La Feria de Alcalá de Guadaíra 2025 tendrá lugar del 29 de mayo al 1 de junio. El Plan Albero coordinará los servicios y la organización durante estos días.</li>
+                    </ul>
+                </article>
+                <article id="contacto" class="md:col-span-4 bg-white m-3 p-4 rounded-md">
+                    <h2 class="text-2xl text-cyan-800 font-bold underline">Contactanos:</h2>
+                    <form class="grid grid-cols-1 gap-2 mt-4">
+                        <label for="nombre" class="text-cyan-700 mt-4">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" class="w-1/2 bg-gray-200  border-solid border-2 border-cyan-800 rounded-md" placeholder="Tu nombre" required>
+                        <label for="email" class="text-cyan-700 mt-4">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" class="w-1/2 bg-gray-200  border-solid border-2 border-cyan-800 rounded-md" placeholder="Tu correo electrónico" required>
+                        <label for="comentario" class="text-cyan-700 mt-4">Tipo de Comentario:</label>
+                        <select id="comentario" name="comentario" class="w-1/4 bg-gray-200  border-solid border-2 border-cyan-800 rounded-md" required>
+                            <option value="queja">Queja</option>
+                            <option value="sugerencia">Sugerencia</option>
+                        </select>
+                        <label for="mensaje" class="text-cyan-700 mt-4">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" class="w-1/2 bg-gray-200  border-solid border-2 border-cyan-800 rounded-md" placeholder="Escribe tu queja o sugerencia..." rows="5" required></textarea>
+                        <button type="reset" class="w-1/4 bg-cyan-500 hover:bg-cyan-700 text-white border-solid border-4 border-cyan-800 rounded-md">Enviar</button>
+                    </form>
+                </article>
+                <article id="llegar" class="md:col-span-4 bg-white m-3 p-4 rounded-md">
+                    <h2 class="text-2xl text-cyan-800 font-bold underline">Como llegar:</h2>
+                    <div class="grid grid-cols-1 mt-4">
+                        <iframe class="mx-auto w-2/3 h-auto border-solid border-6 border-cyan-800 rounded-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.4814964747625!2d-5.842683723496795!3d37.331107972100554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1264cecc90b289%3A0xbb9b038b6548b4b8!2sRecinto%20Ferial%20de%20Alcal%C3%A1%20de%20Guada%C3%ADra!5e0!3m2!1ses-419!2ses!4v1749490359150!5m2!1ses-419!2ses"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </article>
+            </section>
+
+            <aside class="w-full md:col-span-2 md:col-start-6 md:col-end-8 m-3 bg-white rounded-md p-3">
+                <article>
+                    <h2 class="text-2xl text-cyan-800 font-bold underline">Telefonos de Interes:</h2>
+                    <div class="md:col-span-2 mt-4 mx-4 bg-gray-300 rounded-md p-4">
+                        <h3 class="text-xl text-cyan-700 text-center underline">Policia Nacional:</h3>
+                        <p class="text-cyan-700 text-center font-bold">955-689-689</p>
+                        <img src="img/policia.jpg" class="w-64 h-44 mx-auto rounded-sm"/>
+                    </div>
+                    <div class="md:col-span-2 mt-4 mx-4 bg-gray-300 rounded-md p-4">
+                        <h3 class="text-xl text-cyan-700 text-center underline">Policia Local:</h3>
+                        <p class="text-cyan-700 text-center font-bold">955-666-777</p>
+                        <img src="img/policiaLocal.jpg" class="w-64 h-44 mx-auto rounded-sm"/>
+                    </div>
+                    <div class="md:col-span-2 mt-4 mx-4 bg-gray-300 rounded-md p-4">
+                        <h3 class="text-xl text-cyan-700 text-center underline">Bomberos:</h3>
+                        <p class="text-cyan-700 text-center font-bold">955-888-888</p>
+                        <img src="img/bomberos.jpg" class="w-64 h-44 mx-auto rounded-sm"/>
+                    </div>
+                    <div class="md:col-span-2 mt-4 mx-4 bg-gray-300 rounded-md p-4">
+                        <h3 class="text-xl text-cyan-700 text-center underline">Ambulancias:</h3>
+                        <p class="text-cyan-700 text-center font-bold">955-112-112</p>
+                        <img src="img/ambulancia.jpg" class="w-64 h-44 mx-auto rounded-sm"/>
+                    </div>
+                    <div class="md:col-span-2 mt-4 mx-4 bg-gray-300 rounded-md p-4">
+                        <h3 class="text-xl text-cyan-700 text-center underline">Taxis:</h3>
+                        <p class="text-cyan-700 text-center font-bold">955-222-111</p>
+                        <img src="img/taxi.jpg" class="w-64 h-44 mx-auto rounded-sm"/>
+                    </div>
+                </article>
+
+                <article class="mt-9">
+                    <h2 class="text-2xl text-cyan-800 font-bold underline">Fotos de la Feria:</h2>
+                    <div class="md:col-span-2 mt-4 mx-4 bg-gray-300 rounded-md p-4">
+                        <h3 class="text-xl text-cyan-700 text-center underline mb-3">Comida de mayores:</h3>
+                        <img src="img/comidaMayores.jpg" class="w-64 h-44 mx-auto rounded-sm"/>
+                    </div>
+                    <div class="md:col-span-2 mt-4 mx-4 bg-gray-300 rounded-md p-4">
+                        <h3 class="text-xl text-cyan-700 text-center underline mb-3">Caballos por la feria:</h3>
+                        <img src="img/caballos.jpg" class="w-64 h-44 mx-auto rounded-sm"/>
+                    </div>
+                    <div class="md:col-span-2 mt-4 mx-4 bg-gray-300 rounded-md p-4">
+                        <h3 class="text-xl text-cyan-700 text-center underline mb-3">Coches de caballos:</h3>
+                        <img src="img/cocheCaballo.jpg" class="w-64 h-44 mx-auto rounded-sm"/>
+                    </div>
+                    <div class="md:col-span-2 mt-4 mx-4 bg-gray-300 rounded-md p-4">
+                        <h3 class="text-xl text-cyan-700 text-center underline mb-3">Cacharritos:</h3>
+                        <img src="img/cacharritos.jpg" class="w-64 h-44 mx-auto rounded-sm"/>
+                    </div>
+                    <div class="md:col-span-2 mt-4 mx-4 bg-gray-300 rounded-md p-4">
+                        <h3 class="text-xl text-cyan-700 text-center underline mb-3">Flamencas:</h3>
+                        <img src="img/flamencas.jpg" class="w-64 h-44 mx-auto rounded-sm"/>
+                    </div>
+                    <div class="md:col-span-2 mt-4 mx-4 bg-gray-300 rounded-md p-4">
+                        <h3 class="text-xl text-cyan-700 text-center underline mb-3">Plano de la Feria:</h3>
+                        <img src="img/plamoFeria.jpg" class="w-64 h-44 mx-auto rounded-sm"/>
+                    </div>
+                </article>
+            </aside>
+        </main>
+
+        <footer class="flex items-center justify-center w-auto h-32 mt-6 rounded-md " style="background-color: #031d38;">
+            <p class="text-white text-xl md:text-4xl">&copy;Todos los derechos reservados 2025.</p>
+        </footer>
+                
+    </body>
+</html>
